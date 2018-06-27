@@ -76,6 +76,9 @@ module.exports={
         ]
     },//打包css，图片转换压缩配置
     plugins:[
+       new webpack.ProvidePlugin({
+            $:'jquery'
+       }),
        new uglify(),   //使用插件之前要先引用
        new htmlPlugin({
            minify:{
