@@ -1,0 +1,16 @@
+body{
+    background-color: red;
+    color:white;
+}
+#tupian{
+    background: url('../images/1.png'); 
+    /* 需要file-loader和url-loader 要去安装 安装完成之后去配置module */
+    width: 862px;
+    height:476px;
+    transform:rotate(45deg);
+    box-shadow:1px solid #f00;
+}
+#aaa{
+    background-color: red;
+    color:white;
+}
